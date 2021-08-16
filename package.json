@@ -1,0 +1,30 @@
+{
+  "name": "@sxc/eslint-cfg-cli",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "bin": {
+    "eslint-cfg": "index.js"
+  },
+  "dependencies": {
+    "@types/inquirer": "^7.3.3",
+    "chalk": "^4.1.2",
+    "commander": "^8.1.0",
+    "execa": "^5.1.1",
+    "inquirer": "^8.1.2",
+    "ora": "^5.4.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "4.29.0",
+    "@typescript-eslint/parser": "4.29.0",
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-prettier": "3.4.0",
+    "eslint-plugin-react": "7.24.0",
+    "eslint-plugin-react-hooks": "4.2.0",
+    "prettier": "2.3.2",
+    "typescript": "4.3.5"
+  }
+}
